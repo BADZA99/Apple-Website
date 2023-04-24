@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Website</title>
+    <link rel="stylesheet" href="./dist/style.css" />
+    <link rel="icon" href="./icon apple.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="">
+    <!-- narbar -->
+    <nav
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 bg-black "
+    >
+      <div
+        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+      >
+        <div
+          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+        >
+          <a
+            href="#home"
+            class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+            >Home</a
+          >
+          <button
+            class="cursor-pointer  leading-none text-xl px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden lg:outline-none focus:outline-none"
+            type="button"
+            onclick="toggleNavbar('example-collapse-navbar')"
+          >
+            <i class="text-white fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- cote droite -->
+        <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden" id="example-collapse-navbar">
+            <ul class="flex flex-col lg:flex-row list-none mr-auto">
+                <li class="flex items-center">
+                    <a href="#ipad" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"><i class="lg:text-gray-300 text-gray-500 fas fa-tablet text-lg leading-lg mr-2"></i>Ipad</a>
+                </li>
+                <li class="flex items-center">
+                    <a href="#macbook" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"><i class="lg:text-gray-300 text-gray-500 fas fa-laptop text-lg leading-lg mr-2"></i>Macbook</a>
+                </li>
+                <li class="flex items-center">
+                    <a href="#team" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"><i class="lg:text-gray-300 text-gray-500 fas fa-users text-lg leading-lg mr-2"></i>Team</a>
+                </li>
+                <li class="flex items-center">
+                    <a href="#contact" class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"><i class="lg:text-gray-300 text-gray-500 fas fa-address-card text-lg leading-lg mr-2"></i>Contact us</a>
+                </li>
+            </ul>
+
+            <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+                <li class="flex items-center">
+                    <a href="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                        <i class="lg:text-gray-300 text-gray-500 fa-brands fa-facebook text-lg leading-lg ml-2 ">
+                            <span class="lg:hidden inline-block ml-2"></span>
+                        </i>
+                    </a>
+                </li>
+                <li class="flex items-center">
+                    <a href="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                        <i class="lg:text-gray-300 text-gray-500 fa-brands fa-twitter text-lg leading-lg ml-2 ">
+                            <span class="lg:hidden inline-block ml-2 mr-2"></span>
+                        </i>
+                    </a>
+                </li>
+                <li class="flex items-center">
+                    <button class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3" type="button">  <i class="fas fa-circle-arrow-down mr-2"></i> Buy a Macbook</button>
+                </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+        <div class="relative pt-16 lg:pb-32 flex content-center items-center justify-center min-h-full  min-h-home-lg" id="#home">
+            <div class="absolute w-full h-full">
+                <video src="https://www.apple.com/105/media/us/macbook-air-m1/2022/648bb92f-0bb4-452c-bfbc-2898641b22f5/anim/chip/large.mp4" autoplay muted class="top-0 bg-center "></video>
+                
+            </div>
+
+            <div class="container relative mx-auto hidden md:block">
+                <div class="flex items-center flex-wrap">
+                    <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                        <div class="pr-12">
+                            <h1 class="text-white font-semibold text-5xl mt-32"></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="pb-20 mt-40 bg-gray-100" id="ipad">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap">
+                    <!-- card categories -->
+                    <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8  shadow-lg rounded-lg ">
+                            <div class="px-4 py-5 flex-auto">
+                                <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                                    <i class="fas fa-tablet-alt"></i>
+                                </div>
+                                <h6 class="text-xl font-semibold">Ipad Pro</h6>
+                                <p class="mt-2 mb-4 text-gray-600 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum expedita obcaecati quam suscipit similique est quidem placeat quasi libero nulla!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-4/12 px-4 text-center">
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg ">
+                            <div class="px-4 py-5 flex-auto">
+                                <div class="text-white p-3 items-center text-center inline-flex justify-center w-12 h-12  mb-5 shadow-lg rounded-full bg-blue-400">
+                                    <i class="fas fa-laptop"></i>
+                                </div>
+                                 <h6 class="text-xl font-semibold">Macbook Pro</h6>
+                                <p class="mt-2 mb-4 text-gray-600 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum expedita obcaecati quam suscipit similique est quidem placeat quasi libero nulla!</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                        <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8  shadow-lg rounded-lg ">
+                            <div class="px-4 py-5 flex-auto">
+                                <div class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                                    <i class="fas fa-tablet-alt"></i>
+                                </div>
+                                <h6 class="text-xl font-semibold">Iphone 14</h6>
+                                <p class="mt-2 mb-4 text-gray-600 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum expedita obcaecati quam suscipit similique est quidem placeat quasi libero nulla!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap items-center mt-32">
+                    <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+                        <div class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-200">
+                            <i class="fas fa-tablet text-xl"></i>
+                        </div>
+                        <h3 class="text-3xl mb-2 font-semibold ">New Ipad Pro</h3>
+                        <p class="text-lg font-light leading-relaxed mt-4 text-gray-800">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum expedita obcaecati quam suscipit similique est quidem placeat quasi libero nulla!
+                        </p>
+                        <p class="text-lg font-light leading-relaxed mt-4 text-gray-800">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum expedita obcaecati quam suscipit similique est quidem placeat quasi libero nulla!
+                        </p>
+                    </div>
+                    <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+                        <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg ">
+                            <img src="./iPad-Pro-Big-Ol-Logo-Orange-removebg-preview.png" alt="ipad pro photo" class="w-full align-middle rounded-t-lg">
+                            <blockquote class="relative p-8 mb-4 bg-black rounded">
+                                <h4 class="tesxt-lg font-bold text-white">Ipad Pro 12.9 11in</h4>
+                                <p class="text-md font-light mt-2 text-white ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum provident neque itaque, labore optio exercitationem cupiditate nisi maxime libero reiciendis?</p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+  </body>
+  <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
+</html>
